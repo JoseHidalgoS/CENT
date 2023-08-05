@@ -12,19 +12,20 @@ body::-webkit-scrollbar{
 
 body::-webkit-scrollbar-thumb{
     width: 10px;
-    background-color: #be42f7;
+    background-color: #aa1010;
     border-radius: 5px;
 }
 :root{
     --blanco: #ffffff;
     --negro: #00070f;
     --gris: #434c5a;
-    --morado: #be42f7;
 }
 .Inicio{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../SRC/kerbals.jpg);
+
 }
 .Inicio-cont{
     text-align: center;
@@ -33,27 +34,60 @@ body::-webkit-scrollbar-thumb{
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
 
-.nave{
+.KSP{
     position: relative;
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: auto;
 }
-.nave img{
+.KSP img{
     display: flex;
-    width: 14em;
-    height: 14em;
+    width: 25em;
+    height: 12em;
 
 }
 
-.registro-ingreso{
+.registro-ingreso-{
     width: 100%;
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.registro-ingreso-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.registro-ingreso-btn a{ 
+    padding: 5px 15px 5px 15px;
+    font-size: 1.4em;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 100px;
+    justify-content: center;
+    color: var(--blanco);
+    margin-left: 10px;
+    transition: .5;
+    cursor: pointer;
+}
+
+.btn-r{
+    border: 3px solid var(--blanco);
+}
+
+.btn-r:hover{
+    font-size: 1.6em;
+    border-color:var(--blanco)
 }
