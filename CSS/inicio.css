@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: #00070f;
+}
+
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #be42f7;
+    border-radius: 5px;
+}
+:root{
+    --blanco: #ffffff;
+    --negro: #00070f;
+    --gris: #434c5a;
+    --morado: #be42f7;
+}
+.Inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Inicio-cont{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+
+.nave{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nave img{
+    display: flex;
+    width: 14em;
+    height: 14em;
+
+}
+
+.registro-ingreso{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
