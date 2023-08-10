@@ -12,19 +12,20 @@ body::-webkit-scrollbar{
 
 body::-webkit-scrollbar-thumb{
     width: 10px;
-    background-color: #aa1010;
+    background-color: #c91111;
     border-radius: 5px;
 }
 :root{
     --blanco: #ffffff;
     --negro: #00070f;
-    --gris: #434c5a;
+    --gris: #cad7e9;
 }
 .Inicio{
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../SRC/kerbals.jpg);
+    background-position-x: -1233px;
 
 }
 .Inicio-cont{
@@ -47,9 +48,12 @@ body::-webkit-scrollbar-thumb{
 }
 .KSP img{
     display: flex;
-    width: 25em;
+    width: 28em;
     height: 12em;
+}
 
+h1{
+    color: var(--gris)
 }
 
 .registro-ingreso-{
@@ -88,6 +92,15 @@ body::-webkit-scrollbar-thumb{
 }
 
 .btn-r:hover{
+    font-size: 1.6em;
+    border-color:var(--blanco)
+}
+
+.btn-i{
+    border: 3px solid var(--blanco);
+}
+
+.btn-i:hover{
     font-size: 1.6em;
     border-color:var(--blanco)
 }
