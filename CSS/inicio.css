@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb{
 :root{
     --blanco: #ffffff;
     --negro: #00070f;
-    --gris: #cad7e9;
+    --gris: #d2ddec;
 }
 .Inicio{
     display: flex;
@@ -50,10 +50,6 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     width: 28em;
     height: 12em;
-}
-
-h1{
-    color: var(--gris)
 }
 
 .registro-ingreso-{
@@ -93,6 +89,7 @@ h1{
 
 .btn-r:hover{
     font-size: 1.6em;
+    transition: .2s;
     border-color:var(--blanco)
 }
 
@@ -102,5 +99,38 @@ h1{
 
 .btn-i:hover{
     font-size: 1.6em;
+    transition: 0.2s;
     border-color:var(--blanco)
+}
+
+.registro-ingreso h1{
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: fit-content;
+}
+
+.Planets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../SRC/cielo\ estrellado\ con\ kerbals.jpg);
+}
+
+.Planets-cont{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.bodys{
+    position: relative;
+    width: 30%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-bottom: auto;
 }
