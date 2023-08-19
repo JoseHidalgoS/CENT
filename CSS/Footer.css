@@ -1,0 +1,40 @@
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.Contacto{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.Columna{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.Columna h2{
+    color: var(--blanco);
+    background-color: #00070f;
+    font-family: arial rounded mt;
+    font-size: 2rem;
+}
+
+.Columna a{
+    color: rgb(211, 211, 211);
+    font-family: arial rounded mt;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+}

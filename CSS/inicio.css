@@ -19,46 +19,62 @@ body::-webkit-scrollbar-thumb{
     --blanco: #ffffff;
     --negro: #00070f;
     --gris: #d2ddec;
+    --rojo:#e72727d7;
 }
 .Inicio{
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../SRC/kerbals.jpg);
-    background-position-x: -1233px;
-
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
 }
+
 .Inicio-cont{
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
+    padding: 0 20px;
+    overflow-y: hidden;
 }
 
 .KSP{
     position: relative;
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: auto;
+    overflow-y: hidden;
 }
 .KSP img{
     display: flex;
-    width: 28em;
-    height: 12em;
+    width: 25em;
+    height: 10em;
 }
 
-.registro-ingreso-{
+.registro-ingreso{
     width: 100%;
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    height: 100%;
+    background-color: #c9111100;
+}
+
+.registro-ingreso h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 30%;
 }
 
 .registro-ingreso-btn{
@@ -66,7 +82,9 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    position: relative;
+    bottom: -50px;
 }
 
 .registro-ingreso-btn a{ 
@@ -90,7 +108,7 @@ body::-webkit-scrollbar-thumb{
 .btn-r:hover{
     font-size: 1.6em;
     transition: .2s;
-    border-color:var(--blanco)
+    border-color:var(--rojo)
 }
 
 .btn-i{
@@ -100,7 +118,7 @@ body::-webkit-scrollbar-thumb{
 .btn-i:hover{
     font-size: 1.6em;
     transition: 0.2s;
-    border-color:var(--blanco)
+    border-color:var(--rojo)
 }
 
 .registro-ingreso h1{
@@ -109,28 +127,43 @@ body::-webkit-scrollbar-thumb{
     width: fit-content;
 }
 
-.Planets{
+.Planets {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../SRC/cielo\ estrellado\ con\ kerbals.jpg);
-}
-
-.Planets-cont{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-}
-
-.bodys{
+    background-image: url(../SRC/cielo\ estrellado\ 2.png);
+    height: 400vh;
     position: relative;
-    width: 30%;
+}
+
+.cuadro {
     display: flex;
-    align-items: right;
-    justify-content: right;
-    margin-bottom: auto;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slot {
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slot img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.slot p {
+    flex: 1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
 }
