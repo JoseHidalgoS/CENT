@@ -16,6 +16,14 @@
     }
 
     .Planets {
-        width: 100%; /* Ajusta la altura según el contenido */
+        width: 100%;
+    }
+
+    .RedesSociales {
+        margin-bottom: 10px;
+    }
+
+    .ImagenContacto {
+        width: 80px;
     }
 }
