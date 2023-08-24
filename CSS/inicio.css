@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb{
 :root{
     --blanco: #ffffff;
     --negro: #00070f;
-    --gris: #d2ddec;
+    --gris: #e4d8d8;
     --rojo:#e72727d7;
 }
 .Inicio{
@@ -64,9 +64,9 @@ body::-webkit-scrollbar-thumb{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    height: 100%;
-    background-color: #c9111100;
+    margin-bottom: -100px;
+    height: 70%;
+    text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
 }
 
 .registro-ingreso h1{
@@ -74,7 +74,9 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     justify-content: center;
     position: relative;
-    height: 30%;
+    height: 25%;
+    font-weight: bold;
+    text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
 }
 
 .registro-ingreso-btn{
@@ -99,32 +101,40 @@ body::-webkit-scrollbar-thumb{
     margin-left: 10px;
     transition: .5;
     cursor: pointer;
+    border: 2px solid transparent;
+    border: 2px solid var(--blanco);
+
 }
 
-.btn-r{
-    border: 3px solid var(--blanco);
-}
 
-.btn-r:hover{
-    font-size: 1.6em;
+.btn {
+    padding: 5px 15px;
+    font-size: 1.4em;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 100px;
+    justify-content: center;
+    color: var(--blanco);
+    margin-left: 10px;
     transition: .2s;
-    border-color:var(--rojo)
+    cursor: pointer;
 }
 
-.btn-i{
-    border: 3px solid var(--blanco);
+.btn:hover {
+    background-color: #c91111;
 }
 
-.btn-i:hover{
-    font-size: 1.6em;
-    transition: 0.2s;
-    border-color:var(--rojo)
+.registro-ingreso-btn a:hover {
+    background-color: #c91111;
+    border-color: #fff;
 }
 
 .registro-ingreso h1{
     color: var(--gris);
     font-size: 1.5rem;
     width: fit-content;
+    margin-bottom: -100px;
 }
 
 .Planets {
@@ -147,11 +157,12 @@ body::-webkit-scrollbar-thumb{
 .slot {
     width: 100%;
     margin: 10px;
-    padding: 15px;
-    border: 1px solid #ccc;
+    padding: 10px;
+    border: 10px solid #202020;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 5%;
 }
 
 .slot img {
@@ -166,4 +177,22 @@ body::-webkit-scrollbar-thumb{
     padding: 15px;
     text-align: center;
     font-size: 20px;
+}
+
+.btn {
+    padding: 5px 15px;
+    font-size: 1.4em;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 100px;
+    justify-content: center;
+    color: var(--blanco);
+    margin-left: 10px;
+    transition: .5s;
+    cursor: pointer; 
+}
+
+.btn:hover {
+    background-color: #c91111;
 }
