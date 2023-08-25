@@ -158,11 +158,12 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
     margin: 10px;
     padding: 10px;
-    border: 10px solid #202020;
+    border: 10px solid #201f1f;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 5%;
+    border-radius: 12px;
+    background-color: #000000dc;
 }
 
 .slot img {
@@ -196,3 +197,4 @@ body::-webkit-scrollbar-thumb{
 .btn:hover {
     background-color: #c91111;
 }
+
