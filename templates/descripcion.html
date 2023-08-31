@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename='CSS/Pag2.css')}}">
+{% endblock %}
+
+{% block body %}
+<section class="celestial-bodies">
+    <div class="cuadro">
+        <div class="slot">
+            <img src="{{url_for('static', filename='SRC/Kerbol.png')}}" >
+            <p>Kerbol, también conocido como el Sol, es la estrella madre del Sistema Kerbol</p>
+        </div>
+        <div class="datos">
+            <p>Kerbol contiene el 99,97% de la masa en el sistema Kerbol. Esto es muy similar a nuestro sol, que contiene el 99,86% de la masa en el sistema solar del mundo real.</p>
+            <hr>
+            <div>
+                <p> El radio ecuatorial del Sol es casi cuatro veces mayor que el de Júpiter y 43,6 veces más grande que el de Jool, el planeta más grande conocido en el sistema Solar</p>
+            </div>
+            hr
+            <div>
+                <p>La "corona" que rodea al Sol (Kerbol) no es del tamaño real del sol tal como aparece. Se reducirá y crecerá en relación con la ubicación del mirador, al igual que el tamaño de Kerbol lo hace normalmente. Sin embargo, no se encogerá más allá de cierto punto, y si el sol se ve desde un punto lo suficientemente lejos, la corona sigue siendo muy visible.</p>
+            </div>
+        </div>
+</section>
+{% endblock%}

@@ -1,0 +1,40 @@
+.celestial-bodies {
+    width: 100vw;
+    height: 100vh;
+    background: url(../SRC/cielo\ estrellado\ 2.png);
+}
+
+.slot{
+
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(39, 38, 38, 0.884);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 540;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.datos{
+    color: white;
+    font-size: 1.2rem;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(39, 38, 38, 0.884);
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 540;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.datos hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
