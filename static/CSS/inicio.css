@@ -142,7 +142,6 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
     background-image: url(../SRC/cielo\ estrellado\ 2.png);
-    height: 440vh;
     position: relative;
 }
 
@@ -156,9 +155,8 @@ body::-webkit-scrollbar-thumb{
 
 .slot {
     width: 100%;
-    margin: 10px;
+    margin: 0.1px 0;
     padding: 10px;
-    border: 10px solid #201f1f;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -198,3 +196,32 @@ body::-webkit-scrollbar-thumb{
     background-color: #c91111;
 }
 
+.planet-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#121213c7;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.planet-button img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.planet-button p {
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1.01rem;
+    line-height: 1.4;
+}
+
+.planet-button:hover {
+    background-color:#121213c7;
+    transform: scale(1.05);
+}

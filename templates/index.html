@@ -22,43 +22,63 @@
     <section class="Planets">
         <div class="cuadro">
             <div class="slot">
-                <img src="{{url_for('static', filename='SRC/Kerbol.png')}}" >
-                <p>"El Sol es el objeto más conocido en el cielo diurno."</p>
+                <button class="planet-button" data-seccion="kerbol">
+                    <img src="{{url_for('static', filename='SRC/Kerbol.png')}}" >
+                    <p>"El Sol es el objeto más conocido en el cielo diurno. Los científicos han notado una sensación de ardor particular y una posible pérdida de visión si se observa durante largos períodos de tiempo."</p>
+                </button>
             </div>
             <div class="slot">
-                <img src="{{url_for('static', filename='SRC/Moho.png')}}">
-                <p>"Moho figura en la mitología de Kerbal como un lugar ardiente con océanos de lava que fluye."</p>
+                <button class="planet-button" data-seccion="moho">
+                    <img src="{{url_for('static', filename='SRC/Moho.png')}}">
+                    <p>"Moho figura en la mitología de Kerbal como un lugar ardiente con océanos de lava que fluye. En realidad, sin embargo, es mucho menos interesante."</p>
+                </button>
             </div>
             <div class="cuadro">
                 <div class="slot">
-                    <img src="{{url_for('static', filename='SRC/Eva.png')}}" >
-                    <p>"Es considerado por algunos como casi un planeta hermano de Kerbin. Bueno, a pesar del púrpura, y la atmósfera tóxica, y las presiones y temperaturas extremas."</p>
+                    <button class="planet-button" data-seccion="eva">
+                        <img src="{{url_for('static', filename='SRC/Eva.png')}}" >
+                        <p>"Es considerado por algunos como casi un planeta hermano de Kerbin. Bueno, a pesar del púrpura, y la atmósfera tóxica, y las presiones y temperaturas extremas."</p>
+                    </button>
                 </div>
                 <div class="cuadro">
                     <div class="slot">
-                        <img src="{{url_for('static', filename='SRC/Kerbin.png')}}" >
-                        <p>"Hogar de los Kerbals, tiene las condiciones adecuadas para mantener una vasta y aparentemente inagotable población de las ansiosas criaturas verdes."</p>
+                        <button class="planet-button" data-seccion="kerbin">
+                            <img src="{{url_for('static', filename='SRC/Kerbin.png')}}" >
+                            <p>"Hogar de los Kerbals, tiene las condiciones adecuadas para mantener una vasta y aparentemente inagotable población de las ansiosas criaturas verdes."</p>
+                        </button>
                     </div>
                     <div class="slot">
-                        <img src="{{url_for('static', filename='SRC/Duna.png')}}">
-                        <p>"También conocido como el punto rojo que puedes ver si entrecierras los ojos con fuerza. "</p>
+                        <button class="planet-button" data-seccion="duna">
+                            <img src="{{url_for('static', filename='SRC/Duna.png')}}">
+                            <p>"También conocido como el punto rojo que puedes ver si entrecierras los ojos con fuerza. El planeta ha sido mantenido con mucho asombro, debido a su llamativo color rojo "</p>
+                        </button>
                     </div>
                     <div class="cuadro">
                         <div class="slot">
-                            <img src="{{url_for('static', filename='SRC/TinyDres.png')}}" >
-                            <p>"Dres es un planeta muy pequeño. Fue el primer planeta considerado enano. Debido a su naturaleza de frecuentar las partes malas del espacio, este planeta enano fue etiquetado oficialmente como "No confiable" por la comunidad científica"</p>
+                            <button class="planet-button" data-seccion="tinydres">
+                                <img src="{{url_for('static', filename='SRC/TinyDres.png')}}" >
+                                <p>"Dres es un planeta muy pequeño. Fue el primer planeta considerado enano. Debido a su naturaleza de frecuentar las partes malas del espacio, este planeta enano fue etiquetado oficialmente como 'No confiable' por la comunidad científica"</p>
+                            </button>
                         </div>
                         <div class="slot">
-                            <img src="{{url_for('static', filename='SRC/Jool.png')}}">
-                            <p>"Jool es particularmente conocido por ser un planeta bastante grande, predominantemente verde."</p>
+                            <button class="planet-button" data-seccion="jool">
+                                <img src="{{url_for('static', filename='SRC/Jool.png')}}">
+                                <p>"Jool es particularmente conocido por ser un planeta bastante grande, predominantemente verde."</p>
+                            </button>
                         </div>
                         <div class="slot">
-                            <img src="{{url_for('static', filename='SRC/Eeloo.png')}}">
-                            <p>"Ha habido una cantidad considerable de controversia en torno al estado de Eeloo como un planeta adecuado o simplemente un "trozo de hielo que gira alrededor del Sol". El debate aún está en curso."</p>
+                            <button class="planet-button" data-seccion="eeloo">
+                                <img src="{{url_for('static', filename='SRC/Eeloo.png')}}">
+                                <p>"Ha habido una cantidad considerable de controversia en torno al estado de Eeloo como un planeta adecuado o simplemente un 'trozo de hielo que gira alrededor del Sol'. El debate aún está en curso."</p>
+                            </button>
                         </div>
-            
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
+
 
 <!-- Fin de sección de descripcion de planetas-->
 <!-- Inicio de sección de contacto y Redes Sociales -->
